@@ -51,7 +51,7 @@
 <div class="tig_buckaroo_payment_card_<?php echo $block->getCardCode(); ?>">
     <?php if ($block->getInfo()->getAdditionalInformation()): ?>
         <?php if ($block->getCardType()): ?>
-            <!--<br />--><?php echo $block->escapeHtml(__('Selected card: %1', $block->getCardType())); ?>
+            <?php echo $block->escapeHtml(__('Selected card: %1', $block->getCardType())); ?>
         <?php endif; ?>
     <?php endif; ?>
 </div>
